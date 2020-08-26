@@ -111,7 +111,7 @@
                         if(par.includes('https')) {
                             content = 'image';
                         }
-                        part.innerHTML = content==='text'?`<p>${text}</p>`:`<img src="${text}"/>`;
+                        part.innerHTML = content==='text'?`<p>${text}</p>`:`<img height="200px" width="300px" src="${text}"/>`;
                         document.getElementById('content').appendChild(part);
                     }
 
