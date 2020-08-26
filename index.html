@@ -93,7 +93,7 @@
                     fr.onload = function() {
                         console.log(this.paragraphs);
                         this.script = fr.result;
-                        this.paragraphs = this.script.split('=');
+                        this.paragraphs = this.script.split('*');
 
                     for(let par of this.paragraphs) {
                         var text = par;
